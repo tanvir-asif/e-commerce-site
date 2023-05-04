@@ -1,0 +1,37 @@
+footer {
+    background-color: #504d4d8c;
+    backdrop-filter: blur(25px);
+    padding: 30px 0;
+}
+
+
+.single-box p {
+    text-align: justify;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 767px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
